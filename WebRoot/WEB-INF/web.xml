@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SuccessServlet</servlet-name>
+    <servlet-class>SuccessServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FailServlet</servlet-name>
+    <servlet-class>FailServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Cllkiek</servlet-name>
+    <servlet-class>Cllkiek</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>hk</servlet-name>
+    <servlet-class>hk</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>wdr</servlet-name>
+    <servlet-class>wdr</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>zx</servlet-name>
+    <servlet-class>zx</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>jieshou</servlet-name>
+    <servlet-class>jieshou</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>lianjie</servlet-name>
+    <servlet-class>lianjie</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>jdbc</servlet-name>
+    <servlet-class>jdbc</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>jiao</servlet-name>
+    <servlet-class>jiao</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SuccessServlet</servlet-name>
+    <url-pattern>/servlet/SuccessServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FailServlet</servlet-name>
+    <url-pattern>/FailServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Cllkiek</servlet-name>
+    <url-pattern>/servlet/Cllkiek</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>hk</servlet-name>
+    <url-pattern>/servlet/hk</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>wdr</servlet-name>
+    <url-pattern>/wdr</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>zx</servlet-name>
+    <url-pattern>/zx</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>jieshou</servlet-name>
+    <url-pattern>/servlet/jieshou</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>lianjie</servlet-name>
+    <url-pattern>/li</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>jdbc</servlet-name>
+    <url-pattern>/jdbc</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>jiao</servlet-name>
+    <url-pattern>/ji</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
